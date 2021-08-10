@@ -1,0 +1,67 @@
+@font-face {
+  font-family: valorant;
+  src: url(../font/valorant.ttf);
+}
+
+* {
+  font-family: valorant;
+}
+
+body {
+  background: url(../img/background-poster.JPG);
+  margin: 0;
+}
+.content-img {
+  text-align: center;
+}
+.img-raze {
+  width: 18%;
+}
+.img-duelist {
+  width: 1.5%;
+}
+.titulo {
+  text-align: center;
+  color: #ece8e1;
+}
+
+.sub-titulo {
+  text-align: center;
+  color: #ece8e1;
+}
+#cuenta {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.simply-section {
+  background: #ece8e1;
+  width: 15%;
+  height: 15%;
+  margin: 5%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.simply-amount {
+  display: block;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.simply-word {
+  font-weight: 300;
+  font-size: 30px;
+  color: rgb(255, 70, 85);
+}
+
+video {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
