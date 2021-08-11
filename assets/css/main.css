@@ -7,9 +7,6 @@
   font-family: valorant;
 }
 
-body {
-  /* background: url(../img/background-poster.JPG); */
-}
 video {
   position: absolute;
   top: 0;
@@ -23,28 +20,44 @@ video {
   text-align: center;
 }
 .img-raze {
-  width: 18%;
+  width: 36.5vh;
 }
 .img-duelist {
-  width: 1.5%;
+  width: 20px;
 }
 .img-sage {
-  width: 2%;
+  width: 30px;
 }
+
 .titulo {
   text-align: center;
   color: #ece8e1;
 }
 
+.icon {
+  color: #ece8e1;
+}
+
+.multicolortext {
+  background-image: linear-gradient(
+    rgb(30, 118, 97),
+    rgb(254, 195, 72),
+    rgb(248, 132, 24)
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 .sub-titulo {
   text-align: center;
 }
+
+/* Contador*/
 #cuenta {
   display: flex;
   justify-content: center;
-}
-.icon {
-  color: #ece8e1;
 }
 
 .simply-section {
@@ -69,16 +82,4 @@ video {
   font-weight: 300;
   font-size: 30px;
   color: rgb(255, 70, 85);
-}
-
-.multicolortext {
-  background-image: linear-gradient(
-    rgb(30, 118, 97),
-    rgb(254, 195, 72),
-    rgb(248, 132, 24)
-  );
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
-  color: transparent;
 }
