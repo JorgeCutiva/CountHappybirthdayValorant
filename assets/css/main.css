@@ -1,85 +1,132 @@
 @font-face {
   font-family: valorant;
-  src: url(../font/valorant.ttf);
+  src        : url(../font/valorant.ttf);
 }
 
 * {
   font-family: valorant;
 }
 
+body {
+  margin: 0;
+}
+
 video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
-}
-.content-img {
-  text-align: center;
-}
-.img-raze {
-  width: 36.5vh;
-}
-.img-duelist {
-  width: 20px;
-}
-.img-sage {
-  width: 30px;
+  position: fixed;
+  z-index : -1;
+  height  : 100%;
 }
 
 .titulo {
+  padding   : 50px 0;
   text-align: center;
-  color: #ece8e1;
+  width     : 600px;
+  margin    : 0 auto;
 }
 
-.icon {
-  color: #ece8e1;
+.titulo h1 {
+  margin    : 0;
+  text-align: center;
+  color     : #ece8e1;
+  display   : inline-block;
 }
 
-.multicolortext {
-  background-image: linear-gradient(
-    rgb(30, 118, 97),
-    rgb(254, 195, 72),
-    rgb(248, 132, 24)
-  );
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
-  color: transparent;
+.img-duelist {
+  width: 20px;
+}
+
+.container-img {
+  width : 300px;
+  margin: 0 auto;
+}
+
+.container-img img {
+  width : 300px;
+  height: 457px;
 }
 
 .sub-titulo {
-  text-align: center;
+  width  : 161px;
+  margin : 0 auto;
+  padding: 50px;
 }
 
-/* Contador*/
-#cuenta {
-  display: flex;
-  justify-content: center;
+.sub-titulo .icon {
+  color    : #ece8e1;
+  font-size: 28px;
 }
+
+.sub-titulo h1 {
+  background-image: linear-gradient(rgb(30, 118, 97),
+      rgb(254, 195, 72),
+      rgb(248, 132, 24));
+  -webkit-background-clip: text;
+  -moz-background-clip   : text;
+  background-clip        : text;
+  color                  : transparent;
+  display                : inline;
+  text-align             : center;
+}
+
+/* .sub-titulo img {
+  width: 30px;
+} */
 
 .simply-section {
   background: #ece8e1;
-  width: 15%;
-  height: 15%;
-  margin-right: 5%;
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+}
+
+#cuenta {
+  width : 1400px;
+  margin: 0 auto;
+}
+
+.simply-section {
+  display         : inline-block;
+  background-color: #ece8e1;
+  width           : 250px;
+  height          : 90px;
+  margin          : 0 50px 0;
+  border-radius   : 5px;
+}
+
+.simply-section div {
+  text-align       : center;
+  /* padding-top   : 32px;
+  padding-bottom   : 32px; */
+
 }
 
 .simply-amount {
-  display: block;
-  font-size: 50px;
+  display    : block;
+  font-size  : 50px;
   font-weight: 700;
-  text-align: center;
 }
 
 .simply-word {
   font-weight: 300;
-  font-size: 30px;
-  color: rgb(255, 70, 85);
+  font-size  : 30px;
+  color      : rgb(255, 70, 85);
+}
+
+.gif {
+  background-image: url("/assets/img/raze-valorant.gif");
+  background-size : contain;
+  height          : 40px;
+  margin          : 25px 300px 25px;
+}
+
+footer {
+  background-color: #ece8e1;
+  padding         : 1px
+}
+
+footer div p {
+  font-family: 'Montserrat', sans-serif;
+  font-size  : 20px;
+  text-align : center;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
