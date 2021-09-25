@@ -17,7 +17,9 @@ simplyCountdown('#cuenta', {
     // in case of inline set to false
     enableUtc: false, //Use UTC or not - default : false
     onEnd: function() { 
-        alert("Finalizo")
+        if (window.confirm("Felizzzzzzzzzzzzzzz Cumpleañosssssssssssssssssssssssssssssssss")) {
+            window.open("https://www.youtube.com/watch?v=rSKq0HNxNa4", '_blank');
+        }
         return; }, //Callback on countdown end, put your own function here
     refresh: 1000, // default refresh every 1s
     sectionClass: 'simply-section', //section css class
